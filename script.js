@@ -1,3 +1,4 @@
+//TOGGLE LOGIC FOR HOME PAGE LIST
 let faqListItems = document.getElementsByClassName('FAQ-list-item');
 const minusSVG=`<svg class="toggle-icon" width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16 0.456177V3.5439H0V0.456177H16Z" fill="white" />
