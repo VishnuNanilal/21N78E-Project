@@ -139,7 +139,7 @@ main{
 
 #contact-button-cont:hover{
     background-color: var(--green);
-    color: var(--dark1);
+    color: var(--white);
 }
 
 .bor{
@@ -210,16 +210,17 @@ main{
 
     border-radius: 64px; 
     background-color: #2BB32A;
-    color: #FFFFFF;
+    color: var(--white);
     cursor: pointer;
 }
 
+.banner-left-cont .button-cont:hover{
+    background-color: darkgreen;
+}
 .banner-left-cont .button-cont div {
     display: flex;
     font-size: 16px;
     line-height: 24px;
-    color: var(--white);
-    background-color: var(--green);
 }
 
 .active-user-cont {
@@ -421,13 +422,20 @@ main{
 .FAQ-list-item .question>p{
     font-size: 24px;
     line-height: 32px;
+    cursor: pointer;
+}
+
+.FAQ-list-item .question>p:hover{
+    color: var(--green);
 }
 
 .FAQ-list-item .answer{
+    height: 0;
     width: 100%;
     font-size: 16px;
     line-height: 24px;
     color: var(--grey3);
+    overflow: hidden;
 }
 
 footer{
@@ -619,3 +627,4 @@ footer .sub-footer-b>div>p{
     text-decoration: underline;
 }
 
+/*===========UTILITY CLASSES==========*/
